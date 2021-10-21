@@ -1,0 +1,131 @@
+.campaign-start-page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #2a2a2a;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0px;
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.campaign-start-header {
+  margin-top: 24px;
+  margin-left: -30px;
+  margin-right: -20px;
+  font-size: 41px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 58px;
+  color: rgb(42, 42, 42);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+.campaign-start-tagline {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 18px;
+}
+
+.campaign-start-input-text {
+  color: #6a6a6a;
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+
+.campaign-start-input-cash {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  display: block;
+  width: 200px;
+  height: 50px;
+  padding: 5px 15px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 6px;
+  padding-left: 26px;
+  box-sizing: border-box;
+}
+
+.USDDDD {
+  display: flex;
+  align-items: center;
+}
+
+.currency-label-cs {
+  position: absolute;
+  color: #0eb4b6;
+  font-size: 16px;
+  margin-left: 10px;
+  padding-bottom: 1px;
+}
+
+.us-div {
+  padding: 15px 40px 14px 15px;
+  background-color: #0eb4b6;
+  color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.campaign-start-input-subtext {
+  margin-top: 6px;
+  margin-right: 15px;
+  color: #a8a8a8;
+  font-size: 14px;
+  margin-bottom: 2px;
+
+}
+
+.campaign-start-input-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  display: block;
+  width: 540px;
+  height: 50px;
+  padding: 5px 15px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 6px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+
+
+.pink-button-campaign-start {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #eb1478;
+  border: 2px solid #eb1478;
+  padding: 15px 5px;
+  border-radius: 2px;
+  color: #ffffff;
+  text-align: center;
+  min-height: 50px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  width: 270px;
+  align-self: flex-start;
+  margin-top: 61px;
+}

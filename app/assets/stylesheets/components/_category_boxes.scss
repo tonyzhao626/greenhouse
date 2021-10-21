@@ -1,0 +1,108 @@
+.category-boxes-div {
+  padding-top: 60px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.explore-categories-header {
+  margin: 0 auto;
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  max-width: 1280px;
+}
+
+.box-container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1280px;
+  box-sizing: border-box;
+}
+.box-container-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.category-box {
+  height: 220px;
+  width: 17.378%;
+  min-height: 1px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cat-box-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.category-box:hover .cat-box-bg {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.cat-box-title {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.home {
+  background-image: asset-url('home.jpg');
+}
+
+.phones {
+  background-image: asset-url('phones.jpg');
+}
+
+.travel {
+  background-image: asset-url('travel.jpg');
+}
+
+.film {
+  background-image: asset-url('film.jpg');
+}
+
+.art {
+  background-image: asset-url('art.jpg');
+}
+
+.health {
+  background-image: asset-url('health.jpg');
+}
+
+.fashion {
+  background-image: asset-url('fashion.jpg');
+}
+
+.tabletop {
+  background-image: asset-url('tabletop.jpg');
+}
+
+.music {
+  background-image: asset-url('music.jpg');
+}
+
+.food {
+  background-image: asset-url('food.jpg');
+}

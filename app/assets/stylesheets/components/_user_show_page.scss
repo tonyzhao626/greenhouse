@@ -1,0 +1,152 @@
+.user-show-page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #2a2a2a;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0px;
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-show-name {
+  margin-top: 41px;
+  margin-bottom: 46px;
+  margin-left: -30px;
+  margin-right: -20px;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 58px;
+  color: rgb(42, 42, 42);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.user-show-page-header {
+  display: flex;
+  border-bottom: 1px solid #dddddd;
+}
+
+.usp-header-item {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding: 3px 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.usp-header-item-selected {
+  color: #eb1478;
+  border-bottom: 3px solid #eb1478;
+}
+
+.user-profile-img {
+  height: 285px;
+  width: 460px;
+}
+
+
+.tagline {
+  margin: 20px 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.about-me {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.user-show-page-body {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-profile-left {
+  width: 58.3333333%;
+}
+
+.user-profile-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 380px;
+}
+
+.user-stats-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-stats-header-am {
+  margin-left: 12px;
+  vertical-align: middle;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0;
+  color: #6a6a6a;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.user-stats-header > img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  border: 0;
+}
+
+.user-stat {
+  display: flex;
+  margin-bottom: 2px;
+
+}
+
+.user-stat-num {
+  font-size: 24px;
+  line-height: 24px;
+  color: #2a2a2a;
+  margin-right: 2px;
+  font-weight: 900;
+  width: 36px;
+  text-align: center;
+}
+
+.user-stat-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: #6a6a6a;
+}
+
+.user-campaigns-header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  margin-bottom: 10px;
+  color: rgb(42, 42, 42);
+}
+
+.user-campaigns-header-funded {
+  margin-top: 50px;
+}

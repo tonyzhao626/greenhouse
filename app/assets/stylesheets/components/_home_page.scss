@@ -1,0 +1,32 @@
+
+body {
+  overflow-x: hidden;
+}
+
+.home-page {
+  font-family: 'Libre Franklin', sans-serif;
+  // margin: 0 auto;
+}
+
+.home-page .user-show-page-header {
+  border-bottom: 0;
+  margin: 20px 0;
+  margin-top: 40px;
+}
+
+.slick-prev:before, .slick-next:before {
+  content: "" !important;
+}
+
+.slider-chevron-img {
+  background-image: asset-url('chevron.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 54px;
+}
+
+.prev-chevron-img {
+  transform: rotate(180deg);
+}

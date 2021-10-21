@@ -1,0 +1,111 @@
+.navigation-bar {
+  height: 74px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: #2a2a2a;
+  font-size: 14px;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navigation-bar .logo {
+  background-position: center;
+  background-image: asset-url('Greenhouse2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 24px;
+  width: 160px;
+}
+
+.navigation-bar .left {
+  display: flex;
+  align-items: center;
+  width: 754px;
+}
+
+.navigation-bar .right {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.search-bar-form {
+  position: relative;
+}
+
+.search-bar {
+  margin-left: 30px;
+  width: 10em;
+  height: 35px;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  padding: 5px 15px;
+  padding-left: 30px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  -webkit-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+}
+
+.search-bar:focus {
+  width: 20em;
+  border: 1px solid #2a2a2a;
+  outline: none;
+}
+
+.magnifying-glass-div {
+  width: 18px;
+  height: 18px;
+  fill: #a8a8a8;
+  position: absolute;
+  top: 9px;
+  left: 37px;
+}
+
+.user-nav {
+  position: relative;
+  display: flex;
+  margin-left: 10px;
+  // justify-content: flex-end;
+}
+
+.navigation-bar button {
+  margin-left: 30px;
+  padding: 27px 7px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.my-links {
+  margin-left: 30px;
+  padding: 27px 7px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.my-links:hover {
+  color: #eb1478;
+}
+
+.navigation-bar button:hover {
+  color: #eb1478;
+}
+
+.navigation-bar:after {
+  border-bottom: 1px rgb(221, 221, 221) solid;
+  width: 100%;
+}
